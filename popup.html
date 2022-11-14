@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2>Turn on Schedule by Default between times shown below?</h2>
+    <div class="switch-field" id='onOffButton'>
+      <input type="radio" id="schedule-off" name="switch-one" value="Off"/>
+      <label for="schedule-off">Off</label>
+      <input type="radio" id="schedule-on" name="switch-one" value="On" checked/>
+      <label for="schedule-on">On</label>
+    </div> 
+
+    <label for="appt">Select ON time:</label>
+    <input type="time" id="timeOn" name="timeOn">
+    <br>
+    <label for="appt">Select OFF time:</label>
+    <input type="time" id="timeOff" name="timeOff">
+
+    <script src="popup.js"></script>
+  </body>
+</html>
